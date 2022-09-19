@@ -1,0 +1,143 @@
+@import url('http://fonts.cdnfonts.com/css/frizquadrata-bt');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('darius2.jpg');
+    overflow-x: hidden;
+}
+
+.Navegar{
+    overflow: hidden;
+    display: flex;
+    margin: 40px 260px;
+}
+.Navegar a{
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'FrizQuadrata BT';
+    color: #D2A855;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Navegar a:hover{
+    transition: 0.5s ease-in-out;
+    color: antiquewhite;
+}
+.texto{
+    display: flex;
+    margin: 40px;
+}
+.texto p{
+    color: #D2A855;
+    font-size: 100px;
+    font-family: 'FrizQuadrata BT';
+    align-items: center;
+    position: relative;
+    font-weight: bolder;
+    left: 250px;
+}
+.texto h1{
+    font-size: 100px;
+    color: #D2A855;
+    font-family: 'FrizQuadrata BT';
+    position: relative;
+    right: 150px;
+    top: 130px;
+}
+.botao{
+    width: 16rem;
+    height: 5.5rem;
+    position: relative;
+    left: 90px;
+    border-radius: 40px;
+    border: none;
+    left: 400px;
+    background-image: linear-gradient(to right, #1FD7FF, #1298AA);
+    top: 190px;
+    cursor: pointer;
+    opacity: 1;
+}
+.botao:hover{
+    background-image: linear-gradient(to bottom,#06c1eb, #0a8191);
+    transition: 0.5s ease-in-out;
+}
+.botao h1{
+    font-family: 'FrizQuadrata BT';
+    font-size: 28px;
+    position: relative;
+    right: 25px;
+    color: #fff;
+}
+.bola{
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border-radius:100px ;
+    left: 320px;
+    border: none;
+    top: 210px;
+    cursor: pointer;
+}
+
+#triangulo-para-direita {
+    width: 0; 
+    height: 0; 
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid #1298AA;
+    position: relative;
+    left: 600px;
+    top: 7.8rem;
+    cursor: pointer;
+}
+.secao{
+    width: 100%;
+    height: 110%;
+    background-color: #020F1B;
+    position: relative;
+    top: 400px;
+}
+.akali{
+    width: 50%;
+}
+#classificacao{
+   position: relative;
+   width: 100px;
+   height: 100px;
+   bottom: 700px;
+   z-index: 1;
+   background-color: #d0ff00;
+   border-radius: 20px;
+   left: 250px;
+   top: 200px;
+}
+#classificacao h1{
+    font-size: 14px;
+    font-family: 'FrizQuadrata BT';
+    position: relative;
+    left: 100px;
+    bottom: 6px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#classificacao h2{
+    font-size: 94px;
+    position: relative;
+    bottom: 234px;
+    font-family: 'FrizQuadrata BT';
+    right: 10px;
+}
+#marketing{
+    position: relative;
+    color: #D2A855;
+    font-family: 'FrizQuadrata BT';
+    font-size: 50px;
+    bottom: 680px;
+    left: 900px;
+}
+
